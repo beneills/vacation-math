@@ -1,0 +1,99 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+\title{Vacation Sheet 7}
+\author{Ben Eills}
+\maketitle
+
+\textit{Submit neat answers to all the questions you attempt (include all the working you wish to be marked, e.g. calculations, diagrams).  Partial answers should also be handed in: these may be awarded partial credit.}
+
+\begin{enumerate}
+	\item So far, you have been performing what is known as \textbf{integration in elementary terms}, or \textbf{primitive-finding}.  Although the use of the derivative is clear to you (it gives you the gradient function), the value of the integral has not been made clear. \\
+	
+	The integral was first formulated in terms of finding area and was only later (surprisingly) discovered to be the reverse operation of differentiation. \\
+	
+	Suppose that $\int f(x) dx = F(x)$, and that we want to find the area A under the graph of f(x) between two points a and b.  We define the \textbf{definite integral} as follows:
+	
+	$$A = \int_a^b f(x) dx = F(b) - F(a)$$
+	
+	
+		Find the specified areas (try to draw graphs where possible).  The first example has been done for you.
+	
+		\begin{enumerate}
+			\item \textbf{Find the area under $f(x) = (x+2)(x-1)$ between 2 and 3.} \\
+			
+					\textit{We find the integral of $f(x)$.}
+					\begin{align*}
+					F(x)		&= \int f(x) dx \\
+								&= \int (x+2)(x-1) dx \\
+								&= \int (x^2 + x - 2) dx \\
+								&= \frac{1}{3}x^3 + \frac{1}{2}x^2 - 2x
+					\end{align*}
+					
+					\newpage
+					
+					\textit{We find the area under $f(x)$ between 2 and 3.}
+					
+					\begin{align*}
+					Area		&= \int_2^3 f(x) dx \\
+								&= F(3) - F(2) \\
+								&= (\frac{1}{3}3^3 + \frac{1}{2}3^2 - 2 \cdot 3) 
+								- (\frac{1}{3}2^3 + \frac{1}{2}2^2 - 2 \cdot 2) \\
+								&= \frac{15}{2} - \frac{2}{3} \\
+								&= \frac{41}{6}						
+					\end{align*}
+					
+			\item Find the area under $f(x) = 2x$ between 0 and 5.  Check your answer with the formula for the area of a triangle.
+			
+			\item Find the area of the shape bounded by $f(x) = -(x-3)(x+3)$ and the x-axis (i.e. between -3 and +3)
+				
+			\item Find $\int_1^9 x^{\frac{1}{2}} dx$
+
+		\end{enumerate}
+	
+	\item Solve the following inequalities, giving your answers in the simplest form possible.
+	
+		\begin{enumerate}
+			\item $x^2 + 5x - 5 < 3x + 10$
+			
+			\item $(x-4)(x-6) < 0$ and $2x - 7 \le 3$
+			
+			\item
+			\begin{enumerate}
+				\item $z(z+7) > 0$
+				\item $z(z+7) = 0$
+				\item $z(z+7) < 0$
+			\end{enumerate}			
+		\end{enumerate}
+
+
+	\item Let $\phi(t) = t^2 - 5t - 11$ and $\theta(t) = t^2 + kt - k$
+		\begin{enumerate}
+			\item What are the discriminants $\Delta_{\phi}$ and $\Delta_{\theta}$ of $\phi(t)$ and $\theta(t)$, respectively?
+			
+			\item Give the intervals where $\phi(t)$ is positive, negative and zero.
+			
+			\item Similarly, do the above for $\theta(t)$ (giving your answer in terms of k).
+			
+			\item Write down some value of k so that $\theta(t)$ has two roots.  Give the roots of $\phi(t)$ and $\theta(t)$.
+		\end{enumerate}
+
+
+	
+	
+	\item Let P = (3, 5), Q = (9, 5) and R = (4, 7) be points in the Euclidean plane. 
+	\begin{enumerate}
+		\item Give the perimeter of triangle $\triangle_{PQR}$
+		
+		\item Give the area of triangle $\triangle_{PQR}$
+		
+		\item Can you find the \textbf{midpoint} of $\triangle_{PQR}$?  (This is the point where the shape would be perfectly balanced if rested on a pin)
+	\end{enumerate}
+	
+\end{enumerate}
+
+\end{document}
